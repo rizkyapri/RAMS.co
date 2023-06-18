@@ -1,0 +1,391 @@
+<!--
+<?php
+  include '../login/koneksi.php';
+  error_reporting(0);
+?>
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RAMS.CO</title>
+  <link rel="shortcut icon" href="../gambar/favicon.ico" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="../assets/rumah.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+    integrity="sha512-SJw7jzjMYJhsEnN/BuxTWXkezA2cRanuB8TdCNMXFJjxG9ZGSKOX5P3j03H6kdMxalKHZ7vlBMB4CagFP/de0A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css"
+    integrity="sha512-Qg72y9f1a3aVc1FVnjq5YURLOOG8fDKQjMnhxYaZgBz4nIVjpVOBUtuMMMqkZPS1FlVrzzEBXq2sM6Qp1zen/Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+    integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+    integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- awal nav -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light" id="navbarhome" style="background-color: #F5F5F5; ">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+        <img src="../gambar/S.png" alt="bootstrap" width="115" height="40" class="me-2">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link underline" aria-current="page" href="../index.html#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active underline" href="#isirumah">Property</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link underline" href="#keuntungan">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link underline" href="#team">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link underline" href="#footerbaru">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link underline active adminz hvr-shadow px-4" style="border: 0;"
+              href="#modal">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- akhir nav -->
+
+  <!-- isirumah -->
+  <section id="isirumah">
+    <div class="container mt-2">
+      <div class="row py-5">
+        <div class="col-md-6 mt-3">
+          <div class="slide-atas">
+            <div class="rumah">
+              <img src="../gambar/2.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="rumah">
+              <img src="../gambar/room.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="rumah">
+              <img src="../gambar/room2.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="rumah">
+              <img src="../gambar/room.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="slide-bawah mt-1">
+            <div class="rumah1">
+              <img src="../gambar/2.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="rumah1">
+              <img src="../gambar/room.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="rumah1">
+              <img src="../gambar/room2.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="rumah1">
+              <img src="../gambar/room.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="isiketerangan">
+            <p class="fw-bold mt-2" style="font-size: 26px; color: #1F2744;">Cluster Harmony</p>
+            <p class="text-muted fs-6">Jakarta, Indonesia</p>
+            <p class="fs-5" style="color: #69B99D;"><strong>Rp. 750.000.000</strong></p>
+            <p class="text-left" style="font-size: 14px;">Rumah ini menawarkan ruang yang nyaman dan luas bagi
+              penghuninya dengan 2 kamar mandi yang tersedia. Dengan ukuran 4 x 15, rumah ini memiliki tanah yang luas
+              untuk keperluan berbagai aktivitas. Luas bangunan sebesar 58m² memberikan ruang yang cukup untuk ruang
+              tamu, kamar tidur, dan ruangan lainnya sesuai dengan kebutuhan.</p>
+            <p class="fw-bold fs-6" style="color: #1F2744;">Detail Properti</p>
+            <div class="row">
+              <div class="detailproperti d-flex justify-content-between">
+                <div class="col-md-4">
+                  <i class="fa-solid fa-bath text-muted fs-6"></i><span
+                    style="margin-left: 10px; font-weight: 600; font-size: 15px;">2</span>
+                  <p class="fs-6">Kamar Mandi</p>
+                </div>
+                <div class="col-md-4">
+                  <i class="fa-solid fa-map text-muted fs-6"></i><span
+                    style="margin-left: 10px; font-weight: 600; font-size: 15px;">4 x 15</span>
+                  <p class="fs-6">Ukuran</p>
+                </div>
+                <div class="col-md-4">
+                  <i class="fa-regular fa-building text-muted fs-6"></i><span
+                    style="margin-left: 10px; font-weight: 600; font-size: 15px;">58m²</span>
+                  <p class="fs-6">Luas Bangunan</p>
+                </div>
+              </div>
+            </div>
+            <a href="https://wa.me/6285691393029" class="btn btn-outline-success mt-2 w-100">Hubungi by Whatsapp</a>
+          </div>
+        </div>
+        <hr>
+        <div class="col-md-6 mt-3">
+          <div class="slide-atas">
+            <div class="rumah">
+              <img src="../gambar/2.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="rumah">
+              <img src="../gambar/room.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="rumah">
+              <img src="../gambar/room2.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="rumah">
+              <img src="../gambar/room.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="slide-bawah mt-1">
+            <div class="rumah1">
+              <img src="../gambar/2.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="rumah1">
+              <img src="../gambar/room.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="rumah1">
+              <img src="../gambar/room2.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="rumah1">
+              <img src="../gambar/room.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="isiketerangan">
+            <p class="fw-bold mt-2" style="font-size: 26px; color: #1F2744;">Cluster Floura</p>
+            <p class="text-muted fs-6">Jakarta, Indonesia</p>
+            <p class="fs-5" style="color: #69B99D;"><strong>Rp. 750.000.000</strong></p>
+            <p class="text-left" style="font-size: 14px;">Rumah ini menawarkan ruang yang nyaman dan luas bagi
+              penghuninya dengan 2 kamar mandi yang tersedia. Dengan ukuran 4 x 15, rumah ini memiliki tanah yang luas
+              untuk keperluan berbagai aktivitas. Luas bangunan sebesar 58m² memberikan ruang yang cukup untuk ruang
+              tamu, kamar tidur, dan ruangan lainnya sesuai dengan kebutuhan.</p>
+            <p class="fw-bold fs-6" style="color: #1F2744;">Detail Properti</p>
+            <div class="row">
+              <div class="detailproperti d-flex justify-content-between">
+                <div class="col-md-4">
+                  <i class="fa-solid fa-bath text-muted fs-6"></i><span
+                    style="margin-left: 10px; font-weight: 600; font-size: 15px;">2</span>
+                  <p class="fs-6">Kamar Mandi</p>
+                </div>
+                <div class="col-md-4">
+                  <i class="fa-solid fa-map text-muted fs-6"></i><span
+                    style="margin-left: 10px; font-weight: 600; font-size: 15px;">4 x 15</span>
+                  <p class="fs-6">Ukuran</p>
+                </div>
+                <div class="col-md-4">
+                  <i class="fa-regular fa-building text-muted fs-6"></i><span
+                    style="margin-left: 10px; font-weight: 600; font-size: 15px;">58m²</span>
+                  <p class="fs-6">Luas Bangunan</p>
+                </div>
+              </div>
+            </div>
+            <a href="https://wa.me/6285691393029" class="btn btn-outline-success mt-2 w-100">Hubungi by Whatsapp</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- isirumah -->
+
+  <!--login popup -->
+<div id="modal" class="popupContainer rounded" style="display:none;">
+  <header class="popupHeader">
+      <span class="header_title">Login</span>
+      <span class="modal_close"><i class="fa fa-times"></i></span>
+  </header>
+
+  <section class="popupBody px-3 py-3">
+      <!-- Login -->
+      <div class="social_login">
+
+          <div class="logologin d-flex justify-content-center">
+            <img src="gambar/SS.png" alt="logologin" style="width: 50%; height: 50%;">
+          </div>
+
+          <div class="action_btns mt-5">
+              <div class="one_half"><a href="#" id="login_form" class="btn btn-outline-success">Login</a></div>
+              <div class="one_half last"><a href="#" id="register_form" class="btn btn-outline-success">Daftar</a></div>
+          </div>
+
+          <div class="text-muted mt-3" style="display: flex;">
+              <hr style="width: 50%; margin-right: 10px;">
+              <p class="mt-1">Atau</p>
+              <hr style="width: 50%; margin-left: 10px;">
+          </div>
+
+          <p style="font-size: 15px;" class="text-center">Apakah anda penjual?</p>
+          <a href="login/login" class="text-decoration-none text-success text-center"><p style="font-size: 15px;">Log In ke ADMIN</p></a>
+      </div>
+
+      <!-- Username & Password Login form -->
+      <div class="user_login">
+                <form method="POST" class="needs-validation" action="" novalidate="" autocomplete="off">
+              <label>Email</label>
+                <input id="email" type="email" class="form-control" name="email" value="" placeholder="Masukkan Email" required  />
+                <div class="invalid-feedback">Masukkan Email</div>
+              <br />
+
+              <label>Password</label>
+                <input id="password" type="password" class="form-control" name="password" value="" placeholder="Masukkan Password" required />
+                <div class="invalid-feedback">Masukkan Password</div>
+              <br />
+
+              <div class="action_btns">
+                  <div class="one_half"><a href="#" class="btn back_btn text-success"><i class="fa fa-angle-double-left"></i> Kembali</a></div>
+                  <button type="submit" class="one_half last btn btn-outline-success" name="masuk">Login</button>
+              </div>
+          </form>
+      </div>
+
+      <!-- Register Form -->
+      <div class="user_register">
+                    <form method="POST" class="needs-validation" action="" novalidate="" autocomplete="off">
+              <label>Username</label>
+                <input id="username_pengguna" type="text" onkeydown="return /[a-zA-Z0-9]/i.test(event.key)" class="form-control" name="username_pengguna" value="" placeholder="Masukkan Username" required  />
+                <div class="invalid-feedback">Masukkan Username</div>
+              <br />
+              <label>Email</label>
+                <input id="email" type="email" class="form-control" name="email" value="" placeholder="Masukkan Email" required  />
+                <div class="invalid-feedback">Masukkan Email</div>
+              <br />
+              <label>Password</label>
+                <input id="password" type="password" class="form-control" name="password" value="" placeholder="Masukkan Password" required />
+                <div class="invalid-feedback">Masukkan Password</div>
+              <br />
+              <label>No HP</label>
+                <input id="notlp" type="number" class="form-control" name="notlp" value="" maxlength="13" minlenght="10" placeholder="Masukkan No HP" required oninput="checkPhoneNumberLength(this)"/>
+                <div class="invalid-feedback">Harus terdiri dari 10 hingga 13 angka.</div>
+              <br />
+              <div class="action_btns">
+                <div class="one_half"><a href="#" class="btn back_btn text-success"><i class="fa fa-angle-double-left"></i> Kembali</a></div>
+                <button type="submit" class="one_half last btn btn-outline-success" name="daftar">Daftar</button>
+              </div>
+          </form>
+      </div>
+  </section>
+</div>
+<!--login popup -->
+
+  <!-- footer baru -->
+  <section id="footerbaru">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-md-6">
+          <div data-aos="footerlogoanimasi" data-aos-offset="200" data-aos-duration="500">
+            <div class="logofooter">
+              <img src="../gambar/r.png" class="rounded-circle" alt="">
+              <p class="fs-3">RAMS.CO</p>
+            </div>
+          </div>
+          <p class="mt-2 isifooterbaru fs-6">We have built our reputation as true local area experts</p>
+          <p class="nwletter" style="color: #0B2E29;">Newsletter</p>
+          <div class="input-group btnfooter mb-3">
+            <input type="text" class="form-control" placeholder="Masukkan email kamu">
+            <button class="btn btn-success" type="button" id="btnnewsletter">Kirim</button>
+          </div>
+        </div>
+        <div class="col-md-2 mt-2 navgis">
+          <p style="color: #0B2E29;">Navigasi</p>
+          <a href="#" class="text-decoration-none hvr-forward">
+            <p class="text-muted">Home</p>
+          </a>
+          <a href="#jelajah" class="text-decoration-none hvr-forward">
+            <p class="text-muted">Property</p>
+          </a>
+          <a href="#keuntungan" class="text-decoration-none hvr-forward">
+            <p class="text-muted">About</p>
+          </a>
+          <a href="#team" class="text-decoration-none hvr-forward">
+            <p class="text-muted">Team</p>
+          </a>
+        </div>
+        <div class="col-md-2 mt-2 navgis">
+          <p style="color: #0B2E29;">Contact Us</p>
+          <p class="text-muted">Kab. Tangerang</p>
+          <p class="text-muted">Banten</p>
+          <p class="text-muted">Indonesia</p>
+        </div>
+        <div class="col-md-2 mt-2 sosmed">
+          <p style="color: #0B2E29;">Sosial Media</p>
+          <a href="https://instagram.com/rams.pro" class="hvr-float"><i class="fs-2 fa-brands fa-instagram me-4"
+              style="color:#69B99D;"></i></a>
+          <a href="mailto:cendoles02@gmail.com?subject=Contact%20Admin&body=Saya%20ingin%20tahu%20tentang%20produk%20anda.%20Tolong%20beritahu%20saya%20tentang%20informasi%20produk%20Anda"
+            class="hvr-float"><i class="fs-2 fa-solid fa-envelope me-4" style="color: #69B99D;"></i></a>
+          <a href="https://wa.me/6285691393029?text=saya%20ingin%20tahu%20tentang%20produk%20Anda.%20Tolong%20beritahu%20saya%20tentang%20informasi%20produk%20Anda"
+            class="hvr-float"><i class="fs-2 fa-brands fa-whatsapp" style="color: #69B99D;"></i></a>
+        </div>
+      </div>
+      <h2 class="text-center fs-6 mt-5" style="color: #03989E;">&copy; Copyright RAMS Property. All Rights Reserved</h2>
+    </div>
+  </section>
+  <!-- footer baru -->
+
+  <!-- live chart-->
+  <script type="text/javascript">
+    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+    (function () {
+      var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+      s1.async = true;
+      s1.src = 'https://embed.tawk.to/637c7a2db0d6371309d060a4/1gif3qhl2';
+      s1.charset = 'UTF-8';
+      s1.setAttribute('crossorigin', '*');
+      s0.parentNode.insertBefore(s1, s0);
+    })();
+  </script>
+  <!-- live chart-->
+
+  <!-- js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js"
+    integrity="sha512-tWHlutFnuG0C6nQRlpvrEhE4QpkG1nn2MOUMWmUeRePl4e3Aki0VB6W1v3oLjFtd0hVOtRQ9PHpSfN6u6/QXkQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://leanmodal.finelysliced.com.au/js/jquery.leanModal.min.js"></script>
+  <script src="../assets/app.js"></script>
+  <script src="../assets/loginpopup.js"></script>
+  <script src="../assets/login.js"></script>
+  <script type="text/javascript">
+    $('.slide-atas').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      fade: true,
+      asNavFor: '.slide-bawah'
+    });
+    $('.slide-bawah').slick({
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      asNavFor: '.slide-atas',
+      arrows: false,
+      dots: true,
+      centerMode: false,
+      focusOnSelect: true
+    });
+  </script>
+
+  <!-- js -->
+</body>
+
+</html>

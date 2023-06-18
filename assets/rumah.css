@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #2d2d2d;
+    font-size: 18px;
+}
+
+/* btn untuk bootstrap */
+.btn-success, .btn-success:hover, .btn-success:active, .btn-success:visited {
+    background-color: #69B99D !important;
+}
+
+.btn-outline-success:hover {
+    background-color: #69B99D !important;
+}
+/* btn untuk bootstrap */
+
+i.material-icons {
+    margin-right: 10px;
+    margin-left: 10px;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    vertical-align: text-top;
+}
+
+.navbar-nav li{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.kategori {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.kategori span {
+    color: #2d2d2d;
+}
+
+p.fw-normal {
+    text-align: justify;
+    color: #A7A7A7;
+}
+
+.tombol {
+    display: flex;
+    justify-content: left;
+}
+
+.isi {
+    padding-left: 3.5rem;
+}
+
+/* active class untuk properti */
+.active {
+    color: #69B99D !important;
+}
+/* active class untuk properti */
+
+/* adminz */
+.adminz {
+    background-color: #69B99D;
+}
+.active.adminz{
+    color: white !important;
+}
+/* adminz */
+
+/* isirumah */
+.rumah img {
+    width: 100%;
+}
+
+.rumah1 {
+    margin: 5px;
+}
+.rumah1 img {
+    width: 100%;
+    cursor: pointer;
+    -webkit-transition:.5s ease-in-out;
+    transition:.5s ease-in-out
+}
+.rumah1:hover img {
+    transition: .5s ease;
+    opacity: 0.6;
+}
+/* isirumah */
+
+
+/* navigasi footer */
+.navgis a {
+    display: flex;
+    justify-content: start;
+}
+/* navigasi footer */
+/* footer baru */
+#footerbaru {
+    background-color: #F5F5F5;
+}
+.isifooterbaru {
+    width: 25rem;
+    color: #1F2744;
+}
+.logofooter {
+    display: flex;
+    justify-content: start;
+}
+.logofooter img {
+    width: 70px;
+    height: 70px;
+}
+.logofooter p {
+    color: #03989E;
+    margin-left: 25px;
+}
+.input-group.btnfooter {
+    width: 25rem;
+}
+.newsletterpesan {
+    font-size: 1rem;
+}
+/* footer baru */
+
+@media screen and (max-width: 992px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .gambar {
+        justify-content: center;
+        display: flex;
+    }
+
+    .kategori {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .tombol {
+        margin-top: 1.5rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .gambarrumah {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .isi {
+        padding: 8px;
+    }
+
+    .isi .lead {
+        text-align: center;
+    }
+
+    
+    /* adminz */
+    .adminz {
+        background-color: transparent;
+    }
+    .active.adminz{
+        color: rgba(0,0,0,.55) !important;
+    }
+    /* adminz */
+    
+
+    /* team */
+    .teamisi {
+        margin-top: 0;
+    }
+    /* team */
+
+    /* navigasi footer */
+    .navgis {
+        text-align: center;
+    }
+    .navgis a {
+        display: flex;
+        justify-content: center;
+    }
+    /* navigasi footer */
+
+    /* sosmed */
+    .sosmed {
+        text-align: center;
+    }
+    /* sosmed */
+    
+    /* footer baru */
+    .isifooterbaru {
+        display: none;
+    }
+    .logofooter {
+        display: block;
+        text-align: center;
+    }
+    .logofooter p {
+        margin-left: 0;
+    }
+    .nwletter {
+        text-align: center;
+    }
+    .input-group.btnfooter {
+        width: auto;
+    }
+    .newsletterpesan {
+        text-align: center;
+    }
+    /* footer baru */
+
+    /* footer animasi logo */
+    [data-aos="footerlogoanimasi"] {
+        opacity: 0;
+        transition-property: transform, opacity;
+    }
+    [data-aos="footerlogoanimasi"].aos-animate {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+    [data-aos="footerlogoanimasi"] {
+        transform: perspective(2500px) rotateX(-100deg);
+    }
+    /* footer animasi logo */
+}

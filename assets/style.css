@@ -1,0 +1,674 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: #eaeaea;
+    font-family: 'Poppins', sans-serif;
+    color: #2d2d2d;
+    font-size: 18px;
+}
+
+/* navbar animation */
+.underline {
+    display: inline;
+    position: relative;
+    overflow: hidden;
+  }
+  .underline:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: -5px;
+    background: #69B99D;
+    height: 4px;
+    transition-property: left right;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+  }
+  .underline:hover:after,
+  .underline:focus:after,
+  .underline:active:after {
+    right: 0;
+  }
+
+.navbar-toggler {
+    padding: .15rem .25rem !important;
+}
+
+/* active class untuk home */
+.active {
+    color: #69B99D !important;
+}
+/* active class untuk home */
+
+/* gambar slide */
+#slidegambar {
+    background-color: #F5F5F5;
+}
+/* gambar slide */
+
+/* btn untuk bootstrap */
+.btn-success, .btn-success:hover, .btn-success:active, .btn-success:visited {
+    background-color: #69B99D !important;
+}
+
+.btn-outline-success:hover {
+    background-color: #69B99D !important;
+}
+/* btn untuk bootstrap */
+
+/* jelajah */
+#jelajah {
+    background-color: #FEFEFF;
+}
+/* jelajah */
+
+/* properti */
+#properti {
+    background-color: #FEFEFF;
+}
+
+h5.card-title {
+    color: #1F2744;
+}
+/* properti */
+
+/* adminz */
+.adminz {
+    background-color: #69B99D;
+}
+.active.adminz{
+    color: white !important;
+}
+/* adminz */
+
+/* keuntungan */
+#keuntungan {
+    background-color: #F5F5F5;
+}
+/* keuntungan */
+
+/* rumahrams */
+#rumahrams {
+    background-color: #FEFEFF;
+}
+/* rumahrams */
+
+/* komentar */
+#komentar {
+    background-color: #FEFEFF;
+}
+/* komentar */
+
+/* team */
+#team {
+    background-color: #FEFEFF;
+}
+.teamisi{
+    margin-top: 1rem;
+}
+.teamgambar {
+    position: relative;
+    overflow: hidden;
+}
+.teamgambar img {
+    max-width: 94%;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+}
+
+.teamgambar:hover img {
+    transform: scale(1.1);
+}
+.deskripsiteamsosmed {
+    display: flex;
+    justify-content: space-between;
+}
+/*
+.fa-instagram {
+    margin-right: 10px;
+}
+/* team */
+
+
+i.material-icons {
+    margin-right: 10px;
+    margin-left: 10px;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    vertical-align: text-top;
+}
+
+.carousel-item img {
+    width:100%;
+    height: 60vh;
+    overflow: hidden;
+}
+
+.navbar-nav li{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+/*
+.container .card {
+    margin: auto;
+    display: block;
+}
+
+.card {
+    display: block;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.card img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+*/
+
+/*
+.card-body {
+    display: flex;
+    flex-direction: column;
+    background-color: #FEFEFE;
+}
+*/
+
+.anjay {
+    display: block;
+}
+
+.anjay img {
+    width: auto;
+}
+
+small.anjay {
+    font-size: 15px;
+    margin-left: auto;
+    padding-bottom: 5%;
+}
+
+.btn {
+    display: block;
+    margin-top: auto;
+}
+
+p.card-text {
+    font-size: 15px;
+}
+
+div.badge {
+    background-color: #F8F9FE;
+    color: #69B99D;
+    font-size: 1.5em;
+}
+
+p.fw-bold {
+    font-size: 3em;
+    color: #054457;
+}
+
+p.fw-normal {
+    margin-right: 23em;
+    color: #73788C;
+}
+
+div.kliklanjut {
+    color: #69B99D;
+    display: flex;
+    justify-content: end;
+}
+
+div.kliklanjut a {
+    color: #69B99D;
+    text-decoration: none;
+}
+
+
+div.teksfooter {
+    font-size: 15px;
+}
+
+.footerbawah {
+    background-color: #143C3C;
+    display: flex;
+    justify-content: space-between;
+    color: #F8F9FA;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+/* about us */
+.aboutus {
+    text-align: justify;
+    color: #03989E;
+    position: relative;
+    top: 10px;
+    left: 10em;
+}
+
+.aboutus p {
+    color: #A7A7A7;
+}
+
+.visi p {
+    color: #212529;
+}
+
+.isivisi p {
+    color: #A7A7A7;
+}
+.misi p {
+    color: #212529;
+}
+
+.isimisi li {
+    color: #A7A7A7;
+    text-align: justify;
+}
+/* about us */
+
+/* keuntungan */
+.fw-normal.logo {
+    margin: auto;
+}
+/* keuntungan */
+
+/* navigasi footer */
+.navgis a {
+    display: flex;
+    justify-content: start;
+}
+/* navigasi footer */
+
+/* footer baru */
+#footerbaru {
+    background-color: #F5F5F5;
+}
+.isifooterbaru {
+    width: 25rem;
+    color: #1F2744;
+}
+.logofooter {
+    display: flex;
+    justify-content: start;
+}
+.logofooter img {
+    width: 40px;
+    height: 40px;
+}
+.logofooter p {
+    color: #03989E;
+    margin-left: 25px;
+}
+.input-group.btnfooter {
+    width: 351px;
+}
+.newsletterpesan {
+    font-size: 1rem;
+}
+.nwletter {
+    font-weight: 500;
+}
+/* footer baru */
+
+/* login popup */
+#lean_overlay {
+    position: fixed;
+    z-index: 100;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    display: none;
+}
+
+.popupContainer {
+    position: absolute;
+    width: 400px;
+    height: auto;
+    left: 45%;
+    top: 100px !important;
+    background: #FFF;
+}
+
+.modal_trigger {
+    margin: 40px auto;
+    width: 200px;
+    display: block;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+}
+
+.one_half {
+    width: 50%;
+    display: block;
+    float: left;
+}
+
+.one_half.last {
+    width: 45%;
+    margin-left: 5%;
+}
+
+/* login popup */
+
+.popupHeader {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.popupHeader {
+    position: relative;
+    padding: 10px 20px;
+    border-bottom: 1px solid #DDD;
+    font-weight: bold;
+    text-align: center;
+}
+
+.popupHeader .modal_close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: #aaa;
+    font-size: 16px;
+}
+
+.social_login {
+    display: block;
+    clear: both;
+    padding: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.action_btns {
+    clear: both;
+    overflow: hidden;
+}
+
+.action_btns a {
+    display: block;
+}
+
+/* login */
+
+.user_login {
+    display: none;
+}
+
+.user_login label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.user_login input[type="text"],
+.user_login input[type="email"],
+.user_login input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #DDD;
+    color: #666;
+}
+
+/* daftar */
+
+.user_register {
+    display: none;
+}
+
+.user_register label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.user_register input[type="text"],
+.user_register input[type="email"],
+.user_register input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #DDD;
+    color: #666;
+}
+
+/* login popup */
+
+/* login dropdown */
+.dropdown-menu {
+    min-width: 0 !important;
+    background-color: transparent !important;
+    border: none;
+}
+
+/* login dropdown */
+
+@media screen and (max-width: 992px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    .carousel {
+        border-radius: 5px 5px 5px 5px;
+        overflow: hidden;
+    }
+    .carousel-item img {
+        width:100%;
+        height: 30vh;
+        overflow: hidden;
+    }
+
+    .anjay {
+        display: block;
+    }
+
+    /*
+    .btn {
+        display: block;
+        font-size: 0.75em;
+        margin-top: auto;
+    }
+    */
+
+    .card img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    h5.card-title {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    p.card-text {
+        text-align: left;
+    }
+
+    div.badge {
+        font-size: 1.2em;
+    }
+
+    p.fw-bold {
+        font-size: 2em;
+    }
+
+    p.fw-normal {
+        margin-right: 10px;
+    }
+
+    div.kliklanjut {
+        display: flex;
+        justify-content: end;
+        margin-top: 25px;
+    }
+
+    div.teksfooter {
+        font-size: 8px;
+    }
+    
+    .teksfooter span {
+        display: none;
+    }
+
+    div.footerbawah {
+        display: block;
+        padding: 15px;
+    }
+    
+    /* about us */
+    .aboutus {
+        text-align: justify;
+        color: #03989E;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    .aboutus h1 {
+        text-align: center;
+    }
+
+    .isimisi li {
+        color: #A7A7A7;
+        text-align: justify;
+    }
+
+    /* adminz */
+    .adminz {
+        background-color: transparent;
+    }
+    .active.adminz{
+        color: rgba(0,0,0,.55) !important;
+    }
+    /* adminz */
+    
+    /* keuntungan */
+    .logokenyamanan i,
+    .logokenyamanan p {
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+    }
+    .logokeamanan i,
+    .logokeamanan p {
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+    }
+    .logokemehawan i,
+    .logokemehawan p {
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+    }
+    .logoterbaik i,
+    .logoterbaik p {
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+    }
+    .logostrategis i,
+    .logostrategis p {
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+    }
+    .logoefisiensi i,
+    .logoefisiensi p {
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+    }
+    /* keuntungan */
+
+    /* team */
+    .teamisi{
+        margin-top: 0;
+    }
+    /* team */
+
+    /* navigasi footer */
+    .navgis {
+        text-align: center;
+    }
+    .navgis a {
+        display: flex;
+        justify-content: center;
+    }
+    /* navigasi footer */
+
+    /* sosmed */
+    .sosmed {
+        text-align: center;
+    }
+    /* sosmed */
+
+    /* footer baru */
+    .isifooterbaru {
+        text-align: center;
+        width: auto;
+    }
+    .logofooter {
+        display: block;
+        text-align: center;
+    }
+    .logofooter p {
+        margin-left: 0;
+    }
+    .nwletter {
+        text-align: center;
+    }
+    .input-group.btnfooter {
+        width: auto;
+    }
+    .newsletterpesan {
+        text-align: center;
+    }
+    /* footer baru */
+
+    /* footer animasi logo */
+    [data-aos="footerlogoanimasi"] {
+        opacity: 0;
+        transition-property: transform, opacity;
+    }
+    [data-aos="footerlogoanimasi"].aos-animate {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+    [data-aos="footerlogoanimasi"] {
+        transform: perspective(2500px) rotateX(-100deg);
+    }
+    /* footer animasi logo */
+    
+}
+
+.modal_trigger {
+    margin: 40px auto;
+    width: 200px;
+    display: block;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+}
+
+/* OUR TEAM CSS SECTION */
+ /* login popup */
+ .popupContainer {
+    top: 73px !important;
+    width: 350px;
+}
+
+/* login popup */
+/* END SECTION TEAM */

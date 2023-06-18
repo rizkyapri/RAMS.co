@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Akbar Rizky F, Muhammad Rizky, Rizky Apriansyah, Ryan Dimas, Silva Nissa, Marsya Andhista">
+    <meta name="description" content="Tugas Akhir IMK & PBW">
+    <title>RAMS.CO</title>
+    <link rel="shortcut icon" href="gambar/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" integrity="sha512-SJw7jzjMYJhsEnN/BuxTWXkezA2cRanuB8TdCNMXFJjxG9ZGSKOX5P3j03H6kdMxalKHZ7vlBMB4CagFP/de0A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css" integrity="sha512-Qg72y9f1a3aVc1FVnjq5YURLOOG8fDKQjMnhxYaZgBz4nIVjpVOBUtuMMMqkZPS1FlVrzzEBXq2sM6Qp1zen/Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+</head>
+<body>
+  
+<!-- awal nav -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light" id="navbarhome" style="background-color: #F5F5F5; ">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <img src="gambar/S.png"  alt="bootstrap" width="115" height="40" class="me-2">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active underline" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link underline" href="#jelajah">Property</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link underline" href="#keuntungan">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link underline" href="#team">Team</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link underline" href="#footerbaru">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a role="button" class="nav-link underline active adminz hvr-shadow px-4" id="modal_trigger" style="border: 0;" href="#modal">Login</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- akhir nav -->
+
+<!-- gambar slide -->
+<section id="slidegambar">
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="gambar/BG.png" class="d-block w-100" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+<!-- akhir gambar slide -->
+
+<!-- jelajah -->
+<section id="jelajah">
+  <div class="container py-2">
+    <div class="badge text-wrap mt-5 text-uppercase fw-normal" style="width: auto;">Jelajah</div>
+    <p class="fw-bold mt-2">Rekomendasi Terbaik</p>
+    <p class="fw-normal">Dirancang dengan arsitektur minimalis modern dan <br>tata ruang optimal dan bangunan berkualitas.</p>
+    <div class="kliklanjut">
+      <a href="page/properti.html" class="hvr-forward">Lebih Lanjut<i class="material-icons">arrow_forward_ios</i></a>
+    </div>
+  </div>
+</section>
+<!-- jelajah -->
+
+<!-- card awal pc-->
+<!--
+<section id="properti">
+  <div class="anjay container">
+  <div class="card mb-3 mt-5">
+    <div class="row g-0">
+      <div class="col-md-6">
+        <img src="gambar/2.jpg" class="img-fluid rounded-start" alt="">
+      </div>
+      <div class="col-md-6">
+        <div class="card-body">
+          <strong class="d-inline-flex mb-2 text-success fs-6">Favorite<small class="anjay text-muted">14 Nov 2022</small></strong>
+          <h5 class="card-title">GRAND KEMAYORAN RESIDENCES</h5>
+          <small class="d-flex justify-content-start mb-3 text-muted fs-6">Jakarta, Indonesia</small>
+          <p class="card-text text-dark fs-6"><strong>Rp. 750.000.00</strong><br>
+          <small class="d-flex justify-content-end text-body">Tipe 40/72</small>
+          <p class="card-text">
+            Promo LAUNCHING New Design :<br>
+            - HARGA PERDANA TERMURAH<br>
+            - Serah Terima 3 Bulan Saja!<br>
+            - DP 10 JUTA ALL IN<br>
+            <br>
+            Jangan Tunda Lagi!</p>
+          <a href="page/properti" class="btn btn-outline-success mt-2">Klik Disini</a>
+          <p class="card-text"><small class="update text-muted">Terakhir diupdate 7 Jam lalu</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-3 mt-5">
+    <div class="row g-0">
+      <div class="col-md-6">
+        <img src="gambar/3.jpg" class="img-fluid rounded-start" alt="">
+      </div>
+      <div class="col-md-6">
+        <div class="card-body">
+          <strong class="d-inline-flex mb-2 text-success fs-6">Favorite<small class="anjay text-muted">14 Nov 2022</small></strong>
+          <h5 class="card-title">GRAND KEMAYORAN RESIDENCES</h5>
+          <small class="d-flex justify-content-start mb-3 text-muted fs-6">Jakarta, Indonesia</small>
+          <p class="card-text text-dark fs-6"><strong>Rp. 750.000.00</strong><br>
+          <small class="d-flex justify-content-end text-body">Tipe 40/72</small>
+          <p class="card-text">
+            Promo LAUNCHING New Design :<br>
+            - HARGA PERDANA TERMURAH<br>
+            - Serah Terima 3 Bulan Saja!<br>
+            - DP 10 JUTA ALL IN<br>
+            <br>
+            Jangan Tunda Lagi!</p>
+          <a href="page/properti" class="btn btn-outline-success mt-2">Klik Disini</a>
+          <p class="card-text"><small class="update text-muted">Terakhir diupdate 7 Jam lalu</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+-->
+<!-- akhir card pc -->
+
+<!-- card baru -->
+<section id="properti">
+<div data-aos="fade-up" data-aos-offset="250" data-aos-duration="900">
+  <div class="anjay container py-5">
+    <div class="row">
+      <div class="col-md-4 mt-3">
+        <div class="card">
+          <img src="gambar/2.jpg" class="img-fluid rounded-start p-3" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Tangerang</h5>
+            <small class="d-flex justify-content-start mb-3 text-muted fs-6">Jakarta, Indonesia</small>
+            <p class="card-text fs-5" style="color: #69B99D;"><strong>Rp. 750.000.000</strong></p>
+            <p class="text-muted" style="font-weight: 400;">360m² Living Area</p>
+            <a href="page/properti.html" class="btn btn-outline-success mt-2">Liat Detail</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mt-3">
+        <div class="card">
+          <img src="gambar/2.jpg" class="img-fluid rounded-start p-3" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Tangerang</h5>
+            <small class="d-flex justify-content-start mb-3 text-muted fs-6">Jakarta, Indonesia</small>
+            <p class="card-text fs-5" style="color: #69B99D;"><strong>Rp. 750.000.000</strong></p>
+            <p class="text-muted" style="font-weight: 400;">360m² Living Area</p>
+            <a href="page/properti.html" class="btn btn-outline-success mt-2">Liat Detail</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mt-3">
+        <div class="card">
+          <img src="gambar/2.jpg" class="img-fluid rounded-start p-3" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Tangerang</h5>
+            <small class="d-flex justify-content-start mb-3 text-muted fs-6">Jakarta, Indonesia</small>
+            <p class="card-text fs-5" style="color: #69B99D;"><strong>Rp. 750.000.000</strong></p>
+            <p class="text-muted" style="font-weight: 400;">360m² Living Area</p>
+            <a href="page/properti.html" class="btn btn-outline-success mt-2">Liat Detail</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!-- card baru -->
+
+<!-- jelajah -->
+<section id="keuntungan">
+  <div class="container py-5">
+    <div class="badge text-wrap mt-5 text-uppercase fw-normal" style="width: auto;">KEUNGGULAN</div>
+    <p class="fw-bold mt-2" style="font-size: 46px;">Mengapa Harus RAMS?</p>
+    <div class="row justify-content-center">
+      <div class="col-md-4 mt-5">
+        <div data-aos="flip-up" data-aos-delay="200" data-aos-duration="500" data-aos-offset="100">
+          <div class="logokenyamanan">
+            <i class="fa-solid fa-heart" style="color: #69B99D; font-size: 2.5em;"></i>
+            <p class="fw-bold mt-3" style="font-size: 25px;">Kenyamanan</p>
+            <p class="fw-normal logo">Nikmati fasilitas gaya hidup yang dirancang untuk memberikan kenyamanan modern bagi setiap pemilik rumah, sangat dekat dari sekolah, gereja, dan rumah sakit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mt-5">
+        <div data-aos="flip-down" data-aos-delay="200" data-aos-duration="500" data-aos-offset="100">
+          <div class="logokeamanan">
+            <i class="fa-solid fa-shield" style="color: #69B99D; font-size: 2.5em;"></i>
+            <p class="fw-bold mt-3" style="font-size: 25px;">Keamanan</p>
+            <p class="fw-normal logo">Anda dapat terhubung dengan calon penyewa tanpa harus membagikan nomor telepon Anda. Kami juga mewajibkan semua pengguna untuk mendaftar untuk memvalidasi legitimasi mereka.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mt-5">
+        <div data-aos="flip-up"data-aos-delay="200" data-aos-duration="500" data-aos-offset="100">
+          <div class="logokemehawan">
+            <i class="fa-solid fa-star" style="color: #69B99D; font-size: 2.5em;"></i>
+            <p class="fw-bold mt-3" style="font-size: 25px;">Kemewahan</p>
+            <p class="fw-normal logo">Cari tahu bagaimana kami memberikan standar tertinggi manajemen properti profesional untuk memberi Anda semua manfaat properti.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mt-5">
+        <div data-aos="flip-down" data-aos-delay="200" data-aos-duration="500" data-aos-offset="100">
+          <div class="logoterbaik">
+            <i class="fa-solid fa-money-bill-1-wave" style="color: #69B99D; font-size: 2.5em;"></i>
+            <p class="fw-bold mt-3" style="font-size: 25px;">Harga Terbaik</p>
+            <p class="fw-normal logo ">Tidak yakin apa yang harus Anda bebankan untuk properti Anda? Biarkan kami menghitungnya untuk Anda—hubungi kami hari ini untuk mendapatkan penilaian sewa gratis di rumah Anda.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mt-5">
+        <div data-aos="flip-up" data-aos-delay="200" data-aos-duration="500" data-aos-offset="100">
+          <div class="logostrategis">
+            <i class="fa-solid fa-location-dot" style="color: #69B99D; font-size: 2.5em;"></i>
+            <p class="fw-bold mt-3" style="font-size: 25px;">Lokasi Strategis</p>
+            <p class="fw-normal logo">terletak di pusat kota dekat dengan pusat perbelanjaan. Sangat baik untuk area yang dikelilingi oleh pusat pendidikan internasional, dan pusat perkantoran start-up.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mt-5">
+        <div data-aos="flip-down" data-aos-delay="200" data-aos-duration="500" data-aos-offset="100">
+          <div class="logoefisiensi">
+            <i class="fa-brands fa-cuttlefish" style="color: #69B99D; font-size: 2.5em;"></i>
+            <p class="fw-bold mt-3" style="font-size: 25px;">Efisiensi</p>
+            <p class="fw-normal logo">Jadwalkan kunjungan ke beberapa properti sekaligus dalam satu hari tanpa harus memanggilnya satu per satu. Periksa semuanya dan temukan properti terbaik untuk disewa</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- jelajah -->
+
+<!-- RAMS -->
+<section id="rumahrams">
+  <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="900">
+    <div class="container py-5">
+      <div class="swiffy-slider slider-nav-round slider-nav-animation slider-nav-animation-fadein slider-item-first-visible slider-nav-autoplay slider-nav-autopause" data-slider-nav-autoplay-interval="5000">
+          <ul class="slider-container">
+              <li class="slide-visible">
+                  <div class="card rounded-0 h-100">
+                      <div class="row g-0 h-100">
+                          <div class="col-md-6 col-xl-5 d-flex align-items-center p-2 p-md-3 p-xl-5" style="background-color: #FEFEFF;">
+                              <div class="card-body p-1 p-md-3 p-xl-5">
+                                  <p class="lead">Tangerang</p>
+                                  <h2 class="card-title text-success">Cluster Harmony</h2>
+                                  <p class="card-text mt-3">Daerah yang bernuansa alam dan dilengkapi kawasan hijau dimana sangat baik untuk kesehatan tubuh dan pikiran.</p>
+                                  <a href="page/properti.html" class="btn btn-outline-success w-50">Klik Disini</a>
+                              </div>
+                          </div>
+                          <div class="col-md-6 col-xl-7">
+                              <img src="gambar/1-1-3.png" class="card-img d-none d-md-block" loading="lazy" style="height: 100%; object-fit: cover; border-radius: 0" alt="">
+                              <img src="gambar/1-1-3.png" class="card-img d-block d-md-none" loading="lazy" style="width: 100%; object-fit: cover; border-radius: 0" alt="">
+                          </div>
+                      </div>
+                  </div>
+              </li>
+              <li>
+                  <div class="card rounded-0 h-100">
+                      <div class="row g-0 h-100">
+                          <div class="col-md-6 col-xl-7">
+                              <img src="gambar/BG.png" class="card-img d-none d-md-block" loading="lazy" style="height: 100%; object-fit: cover; border-radius: 0" alt="">
+                              <img src="gambar/BG.png" class="card-img d-block d-md-none" loading="lazy" style="width: 100%; object-fit: cover; border-radius: 0" alt="">
+                          </div>
+                          <div class="col-md-6 col-xl-5 d-flex align-items-center p-2 p-md-3 p-xl-5" style="background-color: #FEFEFF;">
+                              <div class="card-body p-1 p-md-3 p-xl-5">
+                                  <p class="lead">Jakarta</p>
+                                  <h2 class="card-title text-success">Cluster Floura</h2>
+                                  <p class="card-text mt-3">Daerah yang bernuansa alam dan dilengkapi kawasan hijau dimana sangat baik untuk kesehatan tubuh dan pikiran.</p>
+                                  <a href="page/properti.html" class="btn btn-outline-success w-50">Klik Disini</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </li>
+              <li>
+                  <div class="card rounded-0 h-100">
+                    <div class="row g-0 h-100">
+                        <div class="col-md-6 col-xl-5 d-flex align-items-center p-2 p-md-3 p-xl-5" style="background-color: #FEFEFF;">
+                            <div class="card-body p-1 p-md-3 p-xl-5">
+                                <p class="lead">Tangerang, BSD</p>
+                                <h2 class="card-title text-success">Cluster The hills</h2>
+                                <p class="card-text mt-3">Daerah yang bernuansa alam dan dilengkapi kawasan hijau dimana sangat baik untuk kesehatan tubuh dan pikiran.</p>
+                                <a href="page/properti.html" class="btn btn-outline-success w-50">Klik Disini</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-7">
+                            <img src="gambar/rumahcontoh.jpg" class="card-img d-none d-md-block" loading="lazy" style="height: 100%; object-fit: cover; border-radius: 0" alt="">
+                            <img src="gambar/rumahcontoh.jpg" class="card-img d-block d-md-none" loading="lazy" style="width: 100%; object-fit: cover; border-radius: 0" alt="">
+                        </div>
+                    </div>
+                </div>
+              </li>
+              <li>
+                  <div class="card rounded-0 h-100 text-white">
+                    <div class="row g-0 h-100">
+                      <div class="col-md-6">
+                        <img src="gambar/BG.png" class="card-img h-100" style="max-height: 100%; max-width: 100%; object-fit: cover; border-radius: 0" alt="">
+                      </div>
+                      <div class="col-md-6">
+                        <img src="gambar/rumahcontoh.jpg" class="card-img h-100" style="max-height: 100%; max-width: 100%; object-fit: cover; border-radius: 0" alt="">
+                      </div>
+                      <div class="card-img-overlay d-flex align-items-start align-items-md-center justify-content-center flex-column">
+                          <h2 class="card-title h1 d-block d-md-inline-block" style="color: #054457;">RAMS.CO</h2>
+                          <p class="card-text lead col-md-8 col-lg-6 text-center" style="color: #054457;">Made with Love &#10084; </p>
+                      </div>
+                  </div>
+                </div>
+              </li>
+          </ul>
+
+          <button type="button" class="slider-nav" aria-label="Go left"></button>
+          <button type="button" class="slider-nav slider-nav-next" aria-label="Go left"></button>
+
+          <div class="slider-indicators">
+              <button class="active" aria-label="Go to slide"></button>
+              <button aria-label="Go to slide"></button>
+              <button aria-label="Go to slide"></button>
+              <button aria-label="Go to slide"></button>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- RAMS -->
+
+<!-- komentar -->
+<section id="komentar">
+  <div class="container py-5">
+    <div class="badge text-wrap mt-5 text-uppercase fw-normal" style="width: auto;">Komentar</div>
+    <p class="fw-bold mt-2">Apa kata orang tentang kita?</p>
+    <div class="isikomentar mt-5">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card komen mt-3">
+            <div class="card-body">
+              <h5 class="card-title"><i class="fa-solid fa-quote-left" style="font-size: 50px; opacity: 0.1;"></i></h5>
+              <h5 class="card-title fw-bold fs-5">Terbukti persis seperti rumah yang kami inginkan</h5>
+              <p class="card-text fs-6 mt-3" style="color: #1F2744;">Kami ingin mengucapkan terima kasih atas kerja keras Anda dalam menemukan kami rumah sementara, yang terbukti persis seperti yang kami inginkan dan kami dambakan.
+              Terima kasih RAMS.co atas jasa mu kami punya rumah yang nyaman dan aman.</p>
+              <div class="bawahisicard d-flex justify-content-start mt-4">
+                <img src="gambar/windah.jpg" class="rounded-circle" style="width: 75px; height: 75px;" alt="">
+                <div class="col-md-6" style="margin-left: 15px;">
+                  <p style="color: #0B2E29;">Bang Windah</p>
+                  <p class="text-muted fs-6 fw-light">Youtuber</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card komen mt-3">
+            <div class="card-body">
+              <h5 class="card-title"><i class="fa-solid fa-quote-left" style="font-size: 50px; opacity: 0.1;"></i></h5>
+              <h5 class="card-title fw-bold fs-5">Tidak ada yang tahu Portland dan semenanjung lebih baik dari David</h5>
+              <p class="card-text fs-6 mt-3" style="color: #1F2744;">Saya dan istri saya bermimpi untuk mengubah ukuran dari rumah kami di Cape Elizabeth menjadi sebuah kondominium kecil yang lebih dekat dengan tempat kami bekerja dan bermain di Portland.</p>
+              <div class="bawahisicard d-flex justify-content-start mt-4">
+                <img src="gambar/atta.jpg" class="rounded-circle" style="width: 75px; height: 75px;" alt="">
+                <div class="col-md-6" style="margin-left: 15px;">
+                  <p style="color: #0B2E29;">Atta</p>
+                  <p class="text-muted fs-6 fw-light">Youtuber</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card komen mt-3">
+            <div class="card-body">
+              <h5 class="card-title"><i class="fa-solid fa-quote-left" style="font-size: 50px; opacity: 0.1;"></i></h5>
+              <h5 class="card-title fw-bold fs-5">Dia menjaga kepentingan terbaik kliennya dalam fokus yang tajam</h5>
+              <p class="card-text fs-6 mt-3" style="color: #1F2744;">Setelah bekerja dengan David untuk menjual rumah saya pada tahun 2013, saya yakin bahwa dialah satu-satunya makelar yang saya butuhkan. Sejak itu, saya membeli dua properti dan menjual satu.</p>
+              <div class="bawahisicard d-flex justify-content-start mt-4">
+                <img src="gambar/selbi.png" class="rounded-circle" style="width: 75px; height: 75px;" alt="">
+                <div class="col-md-6" style="margin-left: 15px;">
+                  <p style="color: #0B2E29;">Thomas Shelby</p>
+                  <p class="text-muted fs-6 fw-light">Yutuber</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- komentar -->
+
+<!-- our team -->
+<section id="team">
+  <div class="container py-5"></div>
+  <div class="teamisi">
+    <p class="text-center text-uppercase" style="color: #69B99D; font-size: 1.5em;">Our Team</p>
+      <h1 class="text-center fw-bold" style="color: #054457;">Cari tau lebih dekat</h1>
+  </div>
+  <!-- Slick -->
+  <div class="slider">
+    <div >
+      <div class="teamgambar">
+        <img src="gambar/rabka.png" class="img-fluid" alt="">
+        <div class="deskripsiteam mt-4">
+          <div class="deskripsiteamsosmed">
+            <p class="fs-5 fw-bold d-flex justify-content-center">Akbar Rizky Fahrurozy</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="teamgambar">
+        <img src="gambar/rizki.png" class="img-fluid" alt="">
+        <div class="deskripsiteam mt-4">
+          <div class="deskripsiteamsosmed">
+            <p class="fs-5 fw-bold d-flex justify-content-between">Muhammad Rizky</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="teamgambar">
+        <img src="gambar/om.png" class="img-fluid" alt="">
+        <div class="deskripsiteam mt-4">
+          <div class="deskripsiteamsosmed">
+            <p class="fs-5 fw-bold d-flex justify-content-between">Rizky Apriansyah</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="teamgambar">
+        <img src="gambar/rian.jpeg" class="img-fluid" alt="">
+        <div class="deskripsiteam mt-4">
+          <div class="deskripsiteamsosmed">
+            <p class="fs-5 fw-bold d-flex justify-content-between">Ryan Dimas</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="teamgambar">
+        <img src="gambar/silpa.png" class="img-fluid" alt="">
+        <div class="deskripsiteam mt-4">
+          <div class="deskripsiteamsosmed">
+            <p class="fs-5 fw-bold d-flex justify-content-between">Silva Nissa</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="teamgambar">
+        <img src="gambar/caca.png" class="img-fluid" alt="">
+        <div class="deskripsiteam mt-4">
+          <div class="deskripsiteamsosmed">
+            <p class="fs-5 fw-bold d-flex justify-content-between">Marsya Andhista</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- our team -->
+
+<!-- footer baru -->
+<section id="footerbaru">
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-md-6">
+        <div data-aos="footerlogoanimasi" data-aos-offset="200" data-aos-duration="500">
+          <div class="logofooter">
+            <img src="gambar/r.png" class="rounded-circle" alt="">
+            <p class="fs-3">RAMS.CO</p>
+          </div>
+        </div>
+        <p class="mt-2 isifooterbaru fs-6">We have built our reputation as true local area experts</p>
+        <p class="nwletter" style="color: #0B2E29;">Newsletter</p>
+        <div class="input-group btnfooter mb-3">
+          <input type="text" class="form-control" placeholder="Masukkan email kamu">
+          <button class="btn btn-success" type="button" id="btnnewsletter">Kirim</button>
+        </div>
+      </div>
+      <div class="col-md-2 mt-2 navgis">
+        <p style="color: #0B2E29;">Navigasi</p>
+        <a href="#" class="text-decoration-none hvr-forward"><p class="text-muted">Home</p></a>
+        <a href="#jelajah" class="text-decoration-none hvr-forward"><p class="text-muted">Property</p></a>
+        <a href="#keuntungan" class="text-decoration-none hvr-forward"><p class="text-muted">About</p></a>
+        <a href="#team" class="text-decoration-none hvr-forward"><p class="text-muted">Team</p></a>
+      </div>
+      <div class="col-md-2 mt-2 navgis">
+        <p style="color: #0B2E29;">Contact Us</p>
+        <p class="text-muted">Kab. Tangerang</p>
+        <p class="text-muted">Banten</p>
+        <p class="text-muted">Indonesia</p>
+      </div>
+      <div class="col-md-2 mt-2 sosmed">
+        <p style="color: #0B2E29;">Sosial Media</p>
+        <a href="https://instagram.com/rams.pro" class="hvr-float"><i class="fs-2 fa-brands fa-instagram me-4" style="color:#69B99D;"></i></a>
+        <a href="mailto:cendoles02@gmail.com?subject=Contact%20Admin&body=Saya%20ingin%20tahu%20tentang%20produk%20anda.%20Tolong%20beritahu%20saya%20tentang%20informasi%20produk%20Anda" class="hvr-float"><i class="fs-2 fa-solid fa-envelope me-4" style="color: #69B99D;"></i></a>
+        <a href="https://wa.me/6285691393029?text=saya%20ingin%20tahu%20tentang%20produk%20Anda.%20Tolong%20beritahu%20saya%20tentang%20informasi%20produk%20Anda" class="hvr-float"><i class="fs-2 fa-brands fa-whatsapp" style="color: #69B99D;"></i></a>
+      </div>
+    </div>
+    <h2 class="text-center fs-6 mt-5" style="color: #03989E;">&copy; Copyright RAMS Property. All Rights Reserved</h2>
+  </div>
+</section>
+<!-- footer baru -->
+
+<!--login popup -->
+<div id="modal" class="popupContainer rounded" style="display:none;">
+  <header class="popupHeader">
+      <span class="header_title">Login</span>
+      <span class="modal_close"><i class="fa fa-times"></i></span>
+  </header>
+
+  <section class="popupBody px-3 py-3">
+      <!-- Login -->
+      <div class="social_login">
+
+          <div class="logologin d-flex justify-content-center">
+            <img src="gambar/R2.png" alt="logologin" style="width: 50%; height: 50%;">
+          </div>
+
+          <div class="action_btns mt-5">
+              <div class="one_half"><a href="#" id="login_form" class="btn btn-outline-success">Login</a></div>
+              <div class="one_half last"><a href="#" id="register_form" class="btn btn-outline-success">Daftar</a></div>
+          </div>
+
+          <div class="text-muted mt-3" style="display: flex;">
+              <hr style="width: 50%; margin-right: 10px;">
+              <p class="mt-1">Atau</p>
+              <hr style="width: 50%; margin-left: 10px;">
+          </div>
+
+          <p style="font-size: 15px;" class="text-center">Apakah anda penjual?</p>
+          <a href="#" class="text-decoration-none text-success text-center"><p style="font-size: 15px;">Log In ke ADMIN</p></a>
+      </div>
+
+      <!-- Username & Password Login form -->
+      <div class="user_login">
+                <form method="POST" class="needs-validation" action="" novalidate="" autocomplete="off">
+              <label>Email</label>
+                <input id="email" type="email" class="form-control" name="email" value="" placeholder="Masukkan Email" required  />
+                <div class="invalid-feedback">Masukkan Email</div>
+              <br />
+
+              <label>Password</label>
+                <input id="password" type="password" class="form-control" name="password" value="" placeholder="Masukkan Password" required />
+                <div class="invalid-feedback">Masukkan Password</div>
+              <br />
+
+              <div class="action_btns">
+                  <div class="one_half"><a href="#" class="btn back_btn text-success"><i class="fa fa-angle-double-left"></i> Kembali</a></div>
+                  <button type="submit" class="one_half last btn btn-outline-success" name="masuk">Login</button>
+              </div>
+          </form>
+      </div>
+
+      <!-- Register Form -->
+      <div class="user_register">
+                    <form method="POST" class="needs-validation" action="" novalidate="" autocomplete="off">
+              <label>Username</label>
+                <input id="username_pengguna" type="text" onkeydown="return /[a-zA-Z0-9]/i.test(event.key)" class="form-control" name="username_pengguna" value="" placeholder="Masukkan Username" required  />
+                <div class="invalid-feedback">Masukkan Username</div>
+              <br />
+              <label>Email</label>
+                <input id="email" type="email" class="form-control" name="email" value="" placeholder="Masukkan Email" required  />
+                <div class="invalid-feedback">Masukkan Email</div>
+              <br />
+              <label>Password</label>
+                <input id="password" type="password" class="form-control" name="password" value="" placeholder="Masukkan Password" required />
+                <div class="invalid-feedback">Masukkan Password</div>
+              <br />
+              <label>No HP</label>
+                <input id="notlp" type="number" class="form-control" name="notlp" value="" maxlength="13" minlenght="10" placeholder="Masukkan No HP" required oninput="checkPhoneNumberLength(this)"/>
+                <div class="invalid-feedback">Harus terdiri dari 10 hingga 13 angka.</div>
+              <br />
+              <div class="action_btns">
+                <div class="one_half"><a href="#" class="btn back_btn text-success"><i class="fa fa-angle-double-left"></i> Kembali</a></div>
+                <button type="submit" class="one_half last btn btn-outline-success" name="daftar">Daftar</button>
+              </div>
+          </form>
+      </div>
+  </section>
+</div>
+<!--login popup -->
+
+<!-- Start of LiveChat (www.livechat.com) code -->
+<script type="text/javascript">
+  var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+  (function () {
+    var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+    s1.async = true;
+    s1.src = 'https://embed.tawk.to/637c7a2db0d6371309d060a4/1gif3qhl2';
+    s1.charset = 'UTF-8';
+    s1.setAttribute('crossorigin', '*');
+    s0.parentNode.insertBefore(s1, s0);
+  })();
+</script>
+<!-- End of LiveChat code -->
+
+<!-- js -->
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://leanmodal.finelysliced.com.au/js/jquery.leanModal.min.js"></script>
+<script src="assets/app.js"></script>
+<script src="assets/loginpopup.js"></script>
+<script src="assets/login.js"></script>
+<!-- js -->
+
+</body>
+</html>
